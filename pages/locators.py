@@ -13,5 +13,11 @@ class LoginPageLocators:
     REGISTRATION_PASSWORD_REPEAT = (By.CSS_SELECTOR, "#id_registration-password2")
 
 
+class ProductPageLocators:
+    BUTTON_ADD_PRODUCT = (By.CSS_SELECTOR, "button.btn-add-to-basket")
+    NAME_PRODUCT = (By.CSS_SELECTOR, "div h1")
+    MESSAGE_NAME_PRODUCT = (By.CSS_SELECTOR, "div .alertinner strong")
+    PRODUCT_PRICE = (By.CSS_SELECTOR, ".product_page .price_color")
+    CURRENT_AMOUNT_BASKET = (By.CSS_SELECTOR, "#messages p strong")
 
 
